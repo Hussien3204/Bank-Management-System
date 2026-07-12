@@ -10,4 +10,5 @@ add_executable(
     BankSystem
     src/main.cpp
     src/Customer.cpp
+    src/Account.cpp
 )
