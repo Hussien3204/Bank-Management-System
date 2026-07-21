@@ -11,4 +11,5 @@ add_executable(
     src/main.cpp
     src/Customer.cpp
     src/Account.cpp
-)
+    src/IdGenerator.cpp
+ "tests/AccountTest.cpp")

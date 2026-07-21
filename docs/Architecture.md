@@ -18,3 +18,16 @@ Map<CustomerId, Customer>
 
 Accounts:
 Map<AccountNumber, Account>
+
+Customer
+    |
+    | owns
+    ↓
+Account
+
+
+BankSystem
+    |
+    | manages
+    ↓
+Customer + Account
